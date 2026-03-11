@@ -1,0 +1,88 @@
+[
+    {
+      "preset_name": "默认深色毛玻璃风格",
+      "description": "接近当前 UI 工具默认效果的深色 + 毛玻璃方案",
+      "config_data": {
+        "容器 & 布局": [
+          {
+            "componentName": "Container",
+            "cssClass": "p-8",
+            "promptFragment": "使用 p-8 作为容器内边距，提供充足的留白空间",
+            "dimension": "容器 & 布局"
+          },
+          {
+            "componentName": "Grid",
+            "cssClass": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6",
+            "promptFragment": "使用响应式网格布局，移动端单列，桌面双列，间距 gap-6",
+            "dimension": "容器 & 布局"
+          }
+        ],
+        "圆角 (Radius)": [
+          {
+            "componentName": "Card",
+            "cssClass": "rounded-2xl",
+            "promptFragment": "使用 rounded-2xl 作为卡片圆角，提供柔和的视觉体验",
+            "dimension": "圆角 (Radius)"
+          },
+          {
+            "componentName": "Button",
+            "cssClass": "rounded-3xl",
+            "promptFragment": "使用 rounded-3xl 作为按钮圆角，更加圆润现代",
+            "dimension": "圆角 (Radius)"
+          }
+        ],
+        "背景 (Glass)": [
+          {
+            "componentName": "GlassCard",
+            "cssClass": "bg-white/5 backdrop-blur-xl",
+            "promptFragment": "使用 bg-white/5 和 backdrop-blur-xl 实现毛玻璃效果，背景半透明并模糊",
+            "dimension": "背景 (Glass)"
+          }
+        ],
+        "阴影 (Shadow)": [
+          {
+            "componentName": "CardShadow",
+            "cssClass": "shadow-[0_20px_50px_rgba(0,0,0,0.3)]",
+            "promptFragment": "使用 shadow-[0_20px_50px_rgba(0,0,0,0.3)] 实现深度软阴影效果",
+            "dimension": "阴影 (Shadow)"
+          }
+        ],
+        "字体 (Typo)": [
+          {
+            "componentName": "Heading",
+            "cssClass": "text-3xl font-semibold tracking-tight",
+            "promptFragment": "标题使用 text-3xl font-semibold tracking-tight，字重适中，字距紧凑",
+            "dimension": "字体 (Typo)"
+          },
+          {
+            "componentName": "Body",
+            "cssClass": "text-base leading-relaxed",
+            "promptFragment": "正文使用 text-base leading-relaxed，行高宽松易读",
+            "dimension": "字体 (Typo)"
+          }
+        ],
+        "交互 (Motion)": [
+          {
+            "componentName": "HoverScale",
+            "cssClass": "hover:scale-[1.02] transition-transform duration-300",
+            "promptFragment": "悬停时使用 hover:scale-[1.02] transition-transform duration-300 实现轻微放大效果",
+            "dimension": "交互 (Motion)"
+          }
+        ],
+        "色彩 (Color)": [
+          {
+            "componentName": "Primary",
+            "cssClass": "bg-indigo-500 text-white",
+            "promptFragment": "主色使用 bg-indigo-500 text-white，靛蓝色背景配白色文字",
+            "dimension": "色彩 (Color)"
+          },
+          {
+            "componentName": "Background",
+            "cssClass": "bg-zinc-950",
+            "promptFragment": "背景使用 bg-zinc-950，深色背景",
+            "dimension": "色彩 (Color)"
+          }
+        ]
+      }
+    }
+  ]

@@ -1,0 +1,53 @@
+:root {
+  /* 字体 (Typo) */
+  --字体-typo-heading: text-3xl font-semibold tracking-tight;
+  --字体-typo-heading-font-size: 1.875rem;
+  --字体-typo-heading-font-weight: 600;
+  --字体-typo-heading-letter-spacing: -0.025em;
+  --字体-typo-body: text-base leading-relaxed;
+  --字体-typo-body-font-size: 1rem;
+  --字体-typo-body-line-height: 1.625;
+
+  /* 背景 (Glass) */
+  --背景-glass-glass-card: bg-white/5 backdrop-blur-xl;
+  --背景-glass-glass-card-background-color: rgba(255, 255, 255, 0.05);
+  --背景-glass-glass-card-backdrop-filter: blur(24px);
+
+  /* 色彩 (Color) */
+  --色彩-color-primary: bg-indigo-500 text-white;
+  --色彩-color-primary-background-color: #6366f1;
+  --色彩-color-primary-color: #ffffff;
+  --色彩-color-background: bg-zinc-950;
+  --色彩-color-background-background-color: #09090b;
+  --色彩-color-caption: text-white/60;
+  --色彩-color-caption-color: rgba(255, 255, 255, 0.6);
+
+  /* 交互 (Motion) */
+  --交互-motion-hover-scale: hover:scale-[1.02] transition-transform duration-300;
+  --交互-motion-hover-scale-transform: scale(1.02);
+  --交互-motion-hover-scale-transition-property: transform;
+  --交互-motion-hover-scale-transition-duration: 300ms;
+  --交互-motion-click-scale: active:scale-95;
+  --交互-motion-click-scale-transform: scale(95);
+
+  /* 圆角 (Radius) */
+  --圆角-radius-card: rounded-2xl;
+  --圆角-radius-card-border-radius: 1rem;
+  --圆角-radius-button: rounded-3xl;
+  --圆角-radius-button-border-radius: 1.5rem;
+  --圆角-radius-input: rounded-xl;
+  --圆角-radius-input-border-radius: 0.75rem;
+
+  /* 容器 & 布局 */
+  --容器-布局-container: p-8;
+  --容器-布局-container-padding: 2rem;
+  --容器-布局-grid: gap-6;
+  --容器-布局-grid-gap: 1.5rem;
+
+  /* 阴影 (Shadow) */
+  --阴影-shadow-card-shadow: shadow-[0_20px_50px_rgba(0,0,0,0.3)];
+  --阴影-shadow-card-shadow-box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+  --阴影-shadow-button-shadow: shadow-[0_10px_30px_rgba(99,102,241,0.3)];
+  --阴影-shadow-button-shadow-box-shadow: 0 10px 30px rgba(99,102,241,0.3);
+
+}
